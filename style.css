@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eaedf7;
+    /* background-color: rgba(255, 255, 255, .5); */
+}
+
+.mainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 750px;
+    display: flex;
+}
+
+#baloons{
+    background-color: rgba(255, 255, 255, .5);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#score{
+    /* background-color: blanchedalmond; */
+    background-color: #ffffff;
+    width: 40%;
+}
+
+.baloon{
+    display: inline-flex;
+    flex-direction: column;
+    /* background-color: black; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 14px;
+    text-align: center;
+}
+.baloon span{
+    margin-top: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+button{
+    border:none;
+    background-color: #6d8fed;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #ffffff;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: monospace;
+    margin-left: 22px;
+    /* font-size: 12px; */
+}
+button:hover{
+    transition: .40s;
+    box-shadow: 2px 4px 4px grey;
+}
+/* .row1{
+    
+} */
+
+#tryAgain{
+    display: none;
+}
+
+#next {
+    display: none;
+}
+#score div{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+
+#image{
+    border-radius: 50%;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#score p{
+    margin-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    /* font-weight: 600; */
+}
+
+
+
+#score p span {
+    margin-left: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 0;
+}
+
+#score div span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* p{
+    display: inline;
+} */

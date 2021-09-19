@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop The Baloon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div id="baloons" onmouseover="getDivs()"></div>
+        <div id="score">
+            <div id="userPro">
+                <span id="userName"></span>
+                <img src=""
+                    alt="" id="image">
+
+            </div>
+            <p>Level: <span id="level">1</span></p>
+            <!-- <br> -->
+            <p>Score: <span id="scoreInc">0</span></p>
+            <!-- <br> -->
+            <p>Requirment: <span id="text"></span></p>
+            <!-- <br> -->
+            <p>Number Of Lifes : <span id="lifes">3</span></p>
+            <!-- <br> -->
+            <button id="startGame" onclick="startGame()">Start</button>
+            <button id="tryAgain" onclick="tryAgain()">Try Again</button>
+            <button id="next" onclick="next()">Next</button>
+            <button id="logout" onclick="logout()">Log Out</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- <div></div> -->
+<!-- <div class="row1">
+                <div class="r1b1"></div>
+                <div class="r1b2"></div>
+                <div class="r1b3"></div>
+                <div class="r1b4"></div>
+                <div class="r1b5"></div>
+            </div> -->
+<!-- <div class="row2">
+                <div class="r2b1"></div>
+                <div class="r2b2"></div>
+                <div class="r2b3"></div>
+                <div class="r2b4"></div>
+                <div class="r2b5"></div>
+            </div>
+            <div class="row3">
+                <div class="r3b1"></div>
+                <div class="r3b2"></div>
+                <div class="r3b3"></div>
+                <div class="r3b4"></div>
+                <div class="r3b5"></div>
+            </div>
+            <div class="row4">
+                <div class="r4b1"></div>
+                <div class="r4b2"></div>
+                <div class="r4b3"></div>
+                <div class="r4b4"></div>
+                <div class="r4b5"></div>
+            </div>
+            <div class="row5">
+                <div class="r5b1"></div>
+                <div class="r5b2"></div>
+                <div class="r5b3"></div>
+                <div class="r5b4"></div>
+                <div class="r5b5"></div>
+            </div>
+            <div class="row6">
+                <div class="r6b1"></div>
+                <div class="r6b2"></div>
+                <div class="r6b3"></div>
+                <div class="r6b4"></div>
+                <div class="r6b5"></div>
+            </div> -->
